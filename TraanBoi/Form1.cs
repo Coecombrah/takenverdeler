@@ -69,7 +69,7 @@ namespace TraanBoi
                     string query = "INSERT INTO naam_voorkeur(Naam, Voorkeur 1, Voorkeur 2, Voorkeur 3, Voorkeur 4, Voorkeur 5) " +
                     "Values('" + naam + "', '" + a + "', '" + b + "', '" + c + "', '" + d + "', '" + f + "')";
 
-                    using (SqlConnection connection = new SqlConnection("Data Source=PCM13812;Initial Catalog=Kronhjorten;Integrated Security=True"))
+                 //   using (SqlConnection connection = new SqlConnection("Data Source=PCM13812;Initial Catalog=Kronhjorten;Integrated Security=True"))
                     {
                         using (SqlCommand command = new SqlCommand(query, connection))
                         {
